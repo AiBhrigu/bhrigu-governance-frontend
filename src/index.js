@@ -1,3 +1,10 @@
+
+import { canisterId } from "./canister_id.js";
+
+console.log("Using Canister ID:", canisterId);
+
+// Здесь твой остальной код...
+
 import { HttpAgent, Actor } from "@dfinity/agent";
 import { idlFactory } from "./did.js";
 
